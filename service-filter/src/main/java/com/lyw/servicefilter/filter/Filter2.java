@@ -10,6 +10,7 @@ public class Filter2 implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
         long startTime = System.currentTimeMillis();
+        System.out.println("进入过滤器2");
         filterChain.doFilter(servletRequest, servletResponse);
         System.out.println("过滤器2计算时间" + (System.currentTimeMillis() - startTime));
     }

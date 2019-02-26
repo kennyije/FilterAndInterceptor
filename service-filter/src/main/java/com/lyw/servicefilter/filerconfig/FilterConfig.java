@@ -11,7 +11,7 @@ public class FilterConfig {
     public FilterRegistrationBean registFilter() {
         FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean();
         filterRegistrationBean.setFilter(new FilterTest());
-        filterRegistrationBean.addUrlPatterns("/*");
+        filterRegistrationBean.addUrlPatterns("/testController");
         filterRegistrationBean.setName("filterTest");
         filterRegistrationBean.setOrder(1);
         return filterRegistrationBean;
