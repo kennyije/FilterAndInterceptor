@@ -1,4 +1,4 @@
-package com.lyw.servicefilter.filerconfig;
+package com.lyw.servicefilter.config.filerconfig;
 
 import com.lyw.servicefilter.filter.FilterTest;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;

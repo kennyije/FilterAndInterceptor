@@ -1,4 +1,4 @@
-package com.lyw.servicefilter.interceptorConfig;
+package com.lyw.servicefilter.config.interceptorConfig;
 
 import com.lyw.servicefilter.interceptor.LogCostInterceptor;
 import org.springframework.context.annotation.Configuration;
